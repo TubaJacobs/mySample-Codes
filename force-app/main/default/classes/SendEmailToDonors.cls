@@ -4,7 +4,7 @@ public with sharing class SendEmailToDonors {
         description =   'This method is designed to be invoked from flow'
         category    =   'Campaign'
     )
-    public static void sendEmailToDonors(List<Id> listCampaignId){
+    public static void sendEmail(List<Id> listCampaignId){
 
         id campaignId = listCampaignId[0];
 

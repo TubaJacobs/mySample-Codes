@@ -2,7 +2,7 @@ public with sharing class AdressVerificationCallout {
   
     @InvocableMethod(label='Call address verification system' description='Make callout to address verification system')
 
-    //This is going to be used for verifying the address in a flow.
+    //This is going to be used for verifying the address in a flow
     
 public static void getAddressValidation(List<ID> locationIds) {
 
